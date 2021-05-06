@@ -1,11 +1,11 @@
 import React,{ useState } from 'react';
 import './App.css';
-import ImageGrid from './ImageGrid';
-import Modal from './Modal';
-import UploadImage from './UploadImage';
+import ImageGrid from './Components/ImageGrid';
+import Modal from './Components/Modal';
+import UploadImage from './Components/UploadImage';
 import {Switch,Route} from "react-router-dom";
-import DetailComponent from './DetailComponent'
-import UpdateComponent from './UpdateComponent';
+import DetailComponent from './Components/DetailComponent';
+import UpdateComponent from './Components/UpdateComponent'; 
 
 function App() {
 

@@ -1,7 +1,10 @@
 import React from 'react';
 import Axios from 'axios';
 import {Link} from "react-router-dom";
-import {Button} from 'reactstrap';
+import {
+    Card, CardImg, CardText, CardBody,
+    CardTitle, Button
+  } from 'reactstrap';
 
 const DetailComponent=({item,setSelectedImg})=>{
 
